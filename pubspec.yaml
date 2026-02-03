@@ -1,0 +1,98 @@
+name: barber_app
+description: "M&W - İşletme Randevu Uygulaması"
+publish_to: 'none'
+
+version: 1.0.17+95
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Core Flutter
+  cupertino_icons: ^1.0.8
+  intl: any
+
+  # UI & Design
+  google_fonts: ^6.3.0
+  smooth_page_indicator: ^1.1.0
+
+  # State Management
+  provider: ^6.1.1
+
+  # HTTP & API
+  dio: ^5.9.0
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_messaging: ^15.0.1
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.0
+  
+  # App Badge
+  flutter_app_badger: ^1.5.0
+
+  # Storage & Security
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  flutter_dotenv: ^5.2.1
+  flutter_secure_storage: ^9.2.2
+
+  # Network & Caching
+  cached_network_image: ^3.3.0
+  connectivity_plus: ^7.0.0
+
+  # File Handling
+  image_picker: ^1.0.7
+  flutter_image_compress: ^2.1.0
+  file_picker: ^10.3.8
+  
+  # Reorderable Grid
+  reorderable_grid_view: ^2.2.8
+  
+  # HTML Rendering
+  flutter_html: ^3.0.0-beta.2
+  webview_flutter: ^4.4.2
+
+  # Location & Maps
+  google_maps_flutter: ^2.5.3
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  permission_handler: ^12.0.1
+
+  # External Apps
+  url_launcher: ^6.2.2
+  share_plus: ^10.1.2
+  app_links: ^6.3.2
+  cookie_jar: ^4.0.8
+  dio_cookie_manager: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/animations/
+    - assets/onboarding/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/icons/logo.png"
