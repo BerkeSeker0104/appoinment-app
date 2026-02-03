@@ -1,9 +1,0 @@
-{
-    "default_model": "gpt-5.1",
-    "reasoning": {
-      "enabled": false,
-      "summary": false,
-      "effort": "none"
-    }
-  }
-  
