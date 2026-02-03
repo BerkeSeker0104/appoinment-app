@@ -73,7 +73,12 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 ##  Ekran Görüntüleri
 
-*(Buraya uygulama ekran görüntüleri eklenebilir)*
+<img width="1920" height="1440" alt="287shots_so" src="https://github.com/user-attachments/assets/4e25aed8-eb53-44a0-b3f1-dc2c99f82cda" />
+<img width="1920" height="1440" alt="638shots_so" src="https://github.com/user-attachments/assets/794e2159-fbc7-4bed-9b2f-2819cb346950" />
+<img width="1920" height="1440" alt="390shots_so" src="https://github.com/user-attachments/assets/d533a078-c819-4c12-9d19-da1f29b52e3e" />
+<img width="1920" height="1440" alt="283shots_so" src="https://github.com/user-attachments/assets/95eeda29-4e19-4813-89a7-38399fe68c36" />
+
+
 
 ---
 Geliştirici: Berke Şeker
